@@ -1,0 +1,15 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://192.168.0.106:3000"
+    }
+  }, {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.fido2demo",
+      "sha256_cert_fingerprints": ["F7:70:E5:62:FA:AA:B5:B4:7F:21:22:BD:D4:A0:4F:4A:A8:31:48:09:AD:69:42:A8:44:54:A9:7A:66:64:F5:A0"]
+    }
+  }]
+  
